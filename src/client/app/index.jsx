@@ -44,6 +44,9 @@ const Application = (
             </List>
           </Segment>
           <Segment inverted>
+            <a href="https://github.com/evanandrewrose/cargo-vis">source on github</a>
+          </Segment>
+          <Segment inverted>
             <a href="http://www.9tabs.com">9tabs.com</a>
           </Segment>
         </Grid.Column>
