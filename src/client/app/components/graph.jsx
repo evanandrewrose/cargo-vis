@@ -27,6 +27,7 @@ const options = {
 const GraphComponent = props => (
   <Graph
     style={{
+      height: '100%',
       backgroundColor: '#1C1F28',
     }}
     graph={{
