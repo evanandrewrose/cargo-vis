@@ -20,7 +20,7 @@ const options = {
     maxVelocity: 146,
     solver: 'forceAtlas2Based',
     timestep: 0.35,
-    stabilization: { iterations: 5 },
+    stabilization: { iterations: 1 },
   },
 };
 
