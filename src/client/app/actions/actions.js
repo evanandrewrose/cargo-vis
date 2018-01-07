@@ -10,7 +10,7 @@ const fetchDependenciesSuccess = actionCreator(types.FETCH_DEPENDENCIES_SUCCESS,
 export const fetchPackage = (name, cached = [], depth = 2) => (dispatch) => {
   dispatch(fetchDependenciesLoading(name));
 
-  const corsAnywhere = 'https://tranquil-savannah-90165.herokuapp.com/';
+  const corsAnywhere = 'https://tranquil-savannah-90165.herokuapp.com';
   const requestURL = `${corsAnywhere}/https://crates.io`;
   const url = `${requestURL}/api/v1/crates/${name}`;
 
