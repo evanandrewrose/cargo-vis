@@ -2,8 +2,9 @@ import SearchComponent from 'components/search';
 import { connect } from 'react-redux';
 import { fetchPackage, updateSearch, clearNodes } from 'actions/actions';
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state, ownProps) => ({
   search: state.search,
+  ...ownProps,
 });
 
 const mapDispatchToProps = dispatch => ({

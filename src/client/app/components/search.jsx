@@ -6,7 +6,7 @@ const SearchComponent = props => (
   <div>
     <Form>
       <Input
-        style={{ width: '100%' }}
+        style={{ margin: 0, padding: 0, width: '100%' }}
         onChange={event => props.updateSearch(event.target.value)}
       />
       <Button
