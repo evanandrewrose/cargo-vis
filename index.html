@@ -2,7 +2,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Flog</title>
+    <link rel="stylesheet" type="text/css" href="src/client/public/semantic.min.css">
+    <title>Cargo Visualization</title>
+    <style>
+      html, body, #app, .grid {
+        height: 100% !important;
+        overflow: auto !important;
+      }
+      html, body, #app, #app>div {
+        height: 100%
+      }
+    </style>
   </head>
   <body>
     <div id="app" />

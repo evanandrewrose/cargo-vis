@@ -24,7 +24,13 @@
         "react-router": "^4.2.0",
         "redux": "^3.6.0",
         "redux-action-creator": "^2.2.0",
-        "redux-thunk": "^2.1.0"
+        "redux-thunk": "^2.2.0",
+        "react-vis-force": "^0.3.1",
+        "react-graph-vis": "^1.0.2",
+        "underscore": "^1.8.3",
+        "react-sigma": "^1.2.30",
+        "react-d3-graph": "^1.0.0",
+        "semantic-ui-react": "^0.77.1"
     },
     "devDependencies": {
         "babel-core": "^6.14.0",
@@ -41,6 +47,7 @@
         "eslint-plugin-react": "^7.4.0",
         "jest": "^21.2.1",
         "webpack": "^1.13.2",
-        "webpack-dev-server": "^1.16.1"
+        "webpack-dev-server": "^1.16.1",
+        "semantic-ui": "^2.2.13"
     }
 }

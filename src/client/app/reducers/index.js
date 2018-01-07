@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import count from 'reducers/count';
+import nodes from 'reducers/nodes';
+import search from 'reducers/search';
 
 const reducer = combineReducers({
-  count,
+  nodes,
+  search,
 });
 
 export default reducer;
