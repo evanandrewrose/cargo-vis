@@ -35,7 +35,6 @@ const config = {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(prod ? 'production' : 'development'),
-        API_URL: JSON.stringify(prod ? 'https://bcycle.herokuapp.com' : 'http://localhost:5000'),
       },
     }),
   ],
