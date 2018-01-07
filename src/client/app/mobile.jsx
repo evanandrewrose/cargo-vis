@@ -11,7 +11,7 @@ const Application = () => (
           <SearchContainer hideButton />
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row style={{ padding: 0, margin: 0 }}>
+      <Grid.Row stretched style={{ padding: 0, margin: 0 }}>
         <GraphContainer />
       </Grid.Row>
     </Grid>
