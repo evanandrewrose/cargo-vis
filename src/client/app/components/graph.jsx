@@ -12,15 +12,15 @@ const options = {
   },
   physics: {
     forceAtlas2Based: {
-      gravitationalConstant: -26,
-      centralGravity: 0.005,
-      springLength: 230,
-      springConstant: 0.18,
+      gravitationalConstant: -500,
+      centralGravity: 0.05,
+      springLength: 60,
+      springConstant: 0.30,
     },
     maxVelocity: 146,
     solver: 'forceAtlas2Based',
     timestep: 0.35,
-    stabilization: { iterations: 150 },
+    stabilization: { iterations: 5 },
   },
 };
 
